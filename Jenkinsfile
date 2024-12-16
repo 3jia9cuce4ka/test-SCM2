@@ -8,7 +8,8 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false,
                     submoduleCfg: [],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/3jia9cuce4ka/test-SCM.git'
+                        url: 'https://github.com/3jia9cuce4ka/test-SCM.git',
+                        credentialsId: 'github'
                     ]]
                 ])
             }
